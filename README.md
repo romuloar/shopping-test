@@ -70,7 +70,7 @@ This project deals with a marketing system for shopping centers in .net core
 
 <h3>API Services using clean architecture</h3>
 <ul>
-  <li>Campaign API</li>
+  <li>Campaign API - For now the repository project is using Sqlite with migrations to start the project in a second moment it is possible to use SQL server or another database</li>
   <li>Notification API</li>
   <li>Offer API</li>
 </ul>
