@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ShoppingTest.Campaign.Presentation.Api.props" />
+</Project>

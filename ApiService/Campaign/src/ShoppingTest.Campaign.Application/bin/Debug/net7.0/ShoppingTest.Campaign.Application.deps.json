@@ -1,0 +1,172 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ShoppingTest.Campaign.Application/1.0.0": {
+        "dependencies": {
+          "ShoppingTest.Campaign.Core": "1.0.0"
+        },
+        "runtime": {
+          "ShoppingTest.Campaign.Application.dll": {}
+        }
+      },
+      "Carpo.Core/2.0.0": {
+        "runtime": {
+          "lib/net7.0/Carpo.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Carpo.Core.Domain/2.0.0": {
+        "dependencies": {
+          "Carpo.Core.Extension": "1.0.0",
+          "Carpo.Core.Interface": "2.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Carpo.Core.Domain.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Carpo.Core.Extension/1.0.0": {
+        "dependencies": {
+          "Carpo.Core": "2.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/Carpo.Core.Extension.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Carpo.Core.Interface/2.0.0": {
+        "runtime": {
+          "lib/net7.0/Carpo.Core.Interface.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.12309"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "ShoppingTest.Campaign.Core/1.0.0": {
+        "dependencies": {
+          "Carpo.Core": "2.0.0",
+          "Carpo.Core.Domain": "2.0.0",
+          "Carpo.Core.Interface": "2.0.0"
+        },
+        "runtime": {
+          "ShoppingTest.Campaign.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingTest.Campaign.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Carpo.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q2AI0KxsDPRSM39KKZd+doqpdYxydiSVLBeLmHsJc9lGErPhihda7Oqe7LM4T4h3ln0B27Q+kbXWfTGAb/eHIA==",
+      "path": "carpo.core/2.0.0",
+      "hashPath": "carpo.core.2.0.0.nupkg.sha512"
+    },
+    "Carpo.Core.Domain/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yOMImA96k31RR2yXhbn+5merXbh4oTz/gwRlXVwqzAcwNBE8FflCK/XhkB6cYMLzZgkFf2/NDtOpM7smf7Dsiw==",
+      "path": "carpo.core.domain/2.0.0",
+      "hashPath": "carpo.core.domain.2.0.0.nupkg.sha512"
+    },
+    "Carpo.Core.Extension/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UEZXCOQxfNDIY9a/7w/00tfDgtLWYC7HoO36ZXI2ebFjUAFg8zvfaFCWzriy3kTZ45wAOJUOf+/c/szrxqsZXQ==",
+      "path": "carpo.core.extension/1.0.0",
+      "hashPath": "carpo.core.extension.1.0.0.nupkg.sha512"
+    },
+    "Carpo.Core.Interface/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E6eMggOKwNZFxZcDE/CMLZo3YG4xuxASKPfd+mfAmoX8vs3TnISGnpn4CutfYUtC/H9UQN1UmryPMq4tGEAMiQ==",
+      "path": "carpo.core.interface/2.0.0",
+      "hashPath": "carpo.core.interface.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
+      "path": "microsoft.extensions.configuration/6.0.1",
+      "hashPath": "microsoft.extensions.configuration.6.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "ShoppingTest.Campaign.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

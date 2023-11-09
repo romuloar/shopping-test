@@ -1,0 +1,358 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Carpo.Core/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Carpo.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Carpo.Core.dll": {}
+        }
+      },
+      "Carpo.Core.Domain/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Carpo.Core.Extension": "1.0.0",
+          "Carpo.Core.Interface": "2.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Carpo.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Carpo.Core.Domain.dll": {}
+        }
+      },
+      "Carpo.Core.Extension/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Carpo.Core": "1.0.0",
+          "Microsoft.Extensions.Configuration": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Carpo.Core.Extension.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Carpo.Core.Extension.dll": {}
+        }
+      },
+      "Carpo.Core.Interface/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Carpo.Core.Interface.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Carpo.Core.Interface.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "ShoppingTest.Campaign.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Carpo.Core": "2.0.0",
+          "Carpo.Core.Domain": "2.0.0",
+          "Carpo.Core.Interface": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingTest.Campaign.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingTest.Campaign.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Carpo.Core/2.0.0": {
+      "sha512": "q2AI0KxsDPRSM39KKZd+doqpdYxydiSVLBeLmHsJc9lGErPhihda7Oqe7LM4T4h3ln0B27Q+kbXWfTGAb/eHIA==",
+      "type": "package",
+      "path": "carpo.core/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carpo.core.2.0.0.nupkg.sha512",
+        "carpo.core.nuspec",
+        "lib/net7.0/Carpo.Core.dll"
+      ]
+    },
+    "Carpo.Core.Domain/2.0.0": {
+      "sha512": "yOMImA96k31RR2yXhbn+5merXbh4oTz/gwRlXVwqzAcwNBE8FflCK/XhkB6cYMLzZgkFf2/NDtOpM7smf7Dsiw==",
+      "type": "package",
+      "path": "carpo.core.domain/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carpo.core.domain.2.0.0.nupkg.sha512",
+        "carpo.core.domain.nuspec",
+        "lib/net7.0/Carpo.Core.Domain.dll"
+      ]
+    },
+    "Carpo.Core.Extension/1.0.0": {
+      "sha512": "UEZXCOQxfNDIY9a/7w/00tfDgtLWYC7HoO36ZXI2ebFjUAFg8zvfaFCWzriy3kTZ45wAOJUOf+/c/szrxqsZXQ==",
+      "type": "package",
+      "path": "carpo.core.extension/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "carpo.core.extension.1.0.0.nupkg.sha512",
+        "carpo.core.extension.nuspec",
+        "lib/net6.0/Carpo.Core.Extension.dll"
+      ]
+    },
+    "Carpo.Core.Interface/2.0.0": {
+      "sha512": "E6eMggOKwNZFxZcDE/CMLZo3YG4xuxASKPfd+mfAmoX8vs3TnISGnpn4CutfYUtC/H9UQN1UmryPMq4tGEAMiQ==",
+      "type": "package",
+      "path": "carpo.core.interface/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carpo.core.interface.2.0.0.nupkg.sha512",
+        "carpo.core.interface.nuspec",
+        "lib/net7.0/Carpo.Core.Interface.dll"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/6.0.1": {
+      "sha512": "BUyFU9t+HzlSE7ri4B+AQN2BgTgHv/uM82s5ZkgU1BApyzWzIl48nDsG5wR1t0pniNuuyTBzG3qCW8152/NtSw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
+      "sha512": "qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "ShoppingTest.Campaign.Core/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingTest.Campaign.Core/ShoppingTest.Campaign.Core.csproj",
+      "msbuildProject": "../ShoppingTest.Campaign.Core/ShoppingTest.Campaign.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ShoppingTest.Campaign.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rom\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
+      "projectName": "ShoppingTest.Campaign.Application",
+      "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
+      "packagesPath": "C:\\Users\\rom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://localhost:8099/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {
+              "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:8099/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

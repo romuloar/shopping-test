@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/public/notifications",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/public/notifications",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "SwaggerKey": "notification"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/public/notifications/{everything}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/public/notifications/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1010
+        }
+      ],
+      "SwaggerKey": "notification"
+    }
+  ]
+}

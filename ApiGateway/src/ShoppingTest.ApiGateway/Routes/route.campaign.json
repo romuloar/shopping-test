@@ -1,0 +1,30 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/public/campaign/add",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamPathTemplate": "/public/campaign/add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7121
+        }
+      ],
+      "SwaggerKey": "campaign"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/public/campaign/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/public/campaign/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7121
+        }
+      ],
+      "SwaggerKey": "campaign"
+    }
+  ]
+}

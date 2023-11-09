@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "+naCimFA6UZf/+f4XB6vmJGI/hx5oDs0CwGHZ5bf4zjImDwXhOCcokGmfXjl5LMyfYXiF7UVhM3Y/ue1wWPPWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rom\\.nuget\\packages\\carpo.core\\2.0.0\\carpo.core.2.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\carpo.core.domain\\2.0.0\\carpo.core.domain.2.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\carpo.core.extension\\1.0.0\\carpo.core.extension.1.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\carpo.core.interface\\2.0.0\\carpo.core.interface.2.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\rom\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://localhost:8099/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

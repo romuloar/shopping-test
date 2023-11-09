@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Carpo.Core" Version="2.0.0" />
+    <PackageReference Include="Carpo.Core.Domain" Version="2.0.0" />
+    <PackageReference Include="Carpo.Core.Interface" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

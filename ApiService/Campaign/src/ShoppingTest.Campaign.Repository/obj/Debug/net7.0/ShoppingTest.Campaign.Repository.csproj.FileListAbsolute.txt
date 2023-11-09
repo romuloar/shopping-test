@@ -1,0 +1,17 @@
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.csproj.AssemblyReference.cache
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.AssemblyInfoInputs.cache
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.AssemblyInfo.cs
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Repository.deps.json
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Repository.runtimeconfig.json
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Repository.dll
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Repository.pdb
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Core.dll
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\bin\Debug\net7.0\ShoppingTest.Campaign.Core.pdb
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.csproj.CopyComplete
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.dll
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\refint\ShoppingTest.Campaign.Repository.dll
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.pdb
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ShoppingTest.Campaign.Repository.genruntimeconfig.cache
+C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Repository\obj\Debug\net7.0\ref\ShoppingTest.Campaign.Repository.dll

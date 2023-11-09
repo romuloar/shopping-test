@@ -1,0 +1,14 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "key": "notification",
+      "Config": [
+        {
+          "name": "Notification API",
+          "version": "v1",
+          "Url": "https://localhost:7189/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ]
+}
