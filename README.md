@@ -70,7 +70,7 @@ This project deals with a marketing system for shopping centers in .net core
 
 <h3>API Services using clean architecture</h3>
 <ul>
-  <li>Campaign API</li>
+  <li>Campaign API - For now the repository project is using Sqlite with migrations to start the project in a second moment it is possible to use SQL server or another database</li>
   <li>Notification API</li>
   <li>Offer API</li>
 </ul>
@@ -153,7 +153,7 @@ This project deals with a marketing system for shopping centers in .net core
          }
   }  </code>
 </pre>
-In this example, the code sends a generic notification to the "userNotifications" queue in RabbitMQ. Needs to customize the code to include specific information about the shopping mall, such as the notification type, target audience, and other relevant details. Additionally, you should have queue-consuming systems in place to deliver the notifications to users.
+In this example, the code sends a generic notification to the “userNotifications” queue in RabbitMQ. You need to customize the code to include specific information about the mall, such as notification type, target audience, and other relevant details. Additionally, I must create systems that consume queues to deliver notifications to users.
 
 <hr />
 
