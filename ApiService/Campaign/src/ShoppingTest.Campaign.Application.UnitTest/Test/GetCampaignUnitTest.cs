@@ -7,18 +7,63 @@ namespace ShoppingTest.Campaign.Application.UnitTest.Test
 {
     public class GetCampaignUnitTest
     {
-        [Fact]
-        public async void GetCampaignTest()
+        public CampaignMemory CampaignMemory { get; private set; }
+        public GetCampaignCase GetCampaignCase { get; private set; }
+
+        /// <summary>
+        /// GetCampaignUnitTest
+        /// </summary>
+        public GetCampaignUnitTest()
         {
-            var mem = new CampaignMemory();
-            var get = new GetCampaignCase(mem);
+            CampaignMemory = new CampaignMemory();
+            GetCampaignCase = new GetCampaignCase(CampaignMemory);
+        }
 
-            var id = "";
-            var result = await get.Execute(id);
+        /// <summary>
+        /// Test - Null contract
+        /// </summary>
+        [Fact]
+        public void GetCampaignNullContractTest()
+        {
+            try
+            {
+                var useCase = new GetCampaignCase(null);
+            }
+            catch (Exception exc)
+            {
+                Assert.True(true);
+            }
+        }
+
+
+        /// <summary>
+        /// Test - Null Id
+        /// </summary>
+        [Fact]
+        public async void GetCampaignNullIdTest()
+        {
+            var result = await GetCampaignCase.Execute(null);
             Assert.False(result.IsSuccess);
+        }
 
-            id = mem.ListCampaign.FirstOrDefault()?.Id;
-            result = await get.Execute(id);
+        /// <summary>
+        /// Test - Empty Id
+        /// </summary>
+        [Fact]
+        public async void GetCampaignEmptyIdTest()
+        {
+            var result = await GetCampaignCase.Execute("");
+            Assert.False(result.IsSuccess);
+        }
+
+        /// <summary>
+        /// Test - Success
+        /// </summary>
+        [Fact]
+        public async void GetCampaignSuccessTest()
+        {
+            var id = CampaignMemory.ListCampaign.FirstOrDefault()?.Id;
+            var result = await GetCampaignCase.Execute(id);
             Assert.True(result.IsSuccess);
         }
     }
