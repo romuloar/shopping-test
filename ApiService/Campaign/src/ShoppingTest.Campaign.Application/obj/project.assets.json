@@ -285,11 +285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
+      "projectUniqueName": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
       "projectName": "ShoppingTest.Campaign.Application",
-      "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
+      "projectPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\ShoppingTest.Campaign.Application.csproj",
       "packagesPath": "C:\\Users\\rom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\obj\\",
+      "outputPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -312,8 +312,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {
-              "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj"
+            "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {
+              "projectPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj"
             }
           }
         }

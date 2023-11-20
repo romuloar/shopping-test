@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OTNL6ss+6MYbl8iDgw0i258Z4ueOtZbMHuHF2Ge7InoBWVpNHxHLuIkN1tsPUqnHZSlkLki8qx5EcBhfnIAQzQ==",
+  "dgSpecHash": "xdlmzKjDC6DKjXuZ8V8Kjc9vgeZGOGJZXrJlylgm6x8gnrUTnl1bN14YAWRxCU0Y366Z1yX3m5k0oLAn79bh5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rom\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\rom\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

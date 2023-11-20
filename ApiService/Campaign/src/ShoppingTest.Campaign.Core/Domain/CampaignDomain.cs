@@ -34,10 +34,10 @@ namespace ShoppingTest.Campaign.Core.Domain
         public DateTime EndDate { get; set; }
 
         /// <summary>
-        /// Identity
+        /// Shopping Id
         /// </summary>
         [Required]
-        public string IdShopping { get; set; }
+        public string ShoppingId { get; set; }
 
     }
 }

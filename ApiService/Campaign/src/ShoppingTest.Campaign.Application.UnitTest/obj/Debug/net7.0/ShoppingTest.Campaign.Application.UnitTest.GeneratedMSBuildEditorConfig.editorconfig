@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShoppingTest.Campaign.Application.UnitTest
-build_property.ProjectDir = C:\Users\rom\Source\Repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Application.UnitTest\
+build_property.ProjectDir = C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Application.UnitTest\

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj": {}
+    "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj": {
+    "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
         "projectName": "ShoppingTest.ApiGateway",
-        "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
+        "projectPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\ShoppingTest.ApiGateway.csproj",
         "packagesPath": "C:\\Users\\rom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiGateway\\src\\ShoppingTest.ApiGateway\\obj\\",
+        "outputPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiGateway\\src\\ShoppingTest.ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

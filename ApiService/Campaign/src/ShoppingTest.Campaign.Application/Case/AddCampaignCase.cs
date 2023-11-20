@@ -10,7 +10,7 @@ namespace ShoppingTest.Campaign.Application.Case
         private IAddCampaign _contract;
         public AddCampaignCase(IAddCampaign contract)
         {
-            _contract = contract; 
+            _contract = contract ?? throw new ArgumentNullException(nameof(contract));
         }
 
         public Task<ResultStateCore<CampaignDomain>> Execute(CampaignDomain campaign)

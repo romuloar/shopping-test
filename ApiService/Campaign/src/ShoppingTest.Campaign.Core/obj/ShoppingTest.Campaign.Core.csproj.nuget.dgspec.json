@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {}
+    "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {
+    "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj",
+        "projectUniqueName": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj",
         "projectName": "ShoppingTest.Campaign.Core",
-        "projectPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj",
+        "projectPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\ShoppingTest.Campaign.Core.csproj",
         "packagesPath": "C:\\Users\\rom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\obj\\",
+        "outputPath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

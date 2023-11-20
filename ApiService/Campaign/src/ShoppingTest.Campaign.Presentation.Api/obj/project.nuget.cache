@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a8fFZ0Vfm7Cg6GEn4AEnCfp6M9HtDydGT9w6VZZlQoXWnKus7uEa3IkSI5js+J1tZxO4soog6jOz3y7sVU0W+A==",
+  "dgSpecHash": "G34NYY+7azZH5SfB3cFtswAuwX0gwsmkHRtMz2QYOci4UYsF9tNVFglZ+wX+1LJryb09cjtVKKJh/fZIxvoyow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rom\\source\\repos\\ShoppingTest\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Presentation.Api\\ShoppingTest.Campaign.Presentation.Api.csproj",
+  "projectFilePath": "C:\\Users\\rom\\source\\repos\\shopping-test\\ApiService\\Campaign\\src\\ShoppingTest.Campaign.Presentation.Api\\ShoppingTest.Campaign.Presentation.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rom\\.nuget\\packages\\carpo.core\\2.0.0\\carpo.core.2.0.0.nupkg.sha512",
     "C:\\Users\\rom\\.nuget\\packages\\carpo.core.domain\\2.0.0\\carpo.core.domain.2.0.0.nupkg.sha512",

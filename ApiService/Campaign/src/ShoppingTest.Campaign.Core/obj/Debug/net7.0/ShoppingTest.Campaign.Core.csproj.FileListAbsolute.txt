@@ -10,3 +10,15 @@ C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campai
 C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\refint\ShoppingTest.Campaign.Core.dll
 C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.pdb
 C:\Users\rom\source\repos\ShoppingTest\Services\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ref\ShoppingTest.Campaign.Core.dll
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\bin\Debug\net7.0\ShoppingTest.Campaign.Core.deps.json
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\bin\Debug\net7.0\ShoppingTest.Campaign.Core.dll
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\bin\Debug\net7.0\ShoppingTest.Campaign.Core.pdb
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.csproj.AssemblyReference.cache
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.AssemblyInfoInputs.cache
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.AssemblyInfo.cs
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.csproj.CoreCompileInputs.cache
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.dll
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\refint\ShoppingTest.Campaign.Core.dll
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ShoppingTest.Campaign.Core.pdb
+C:\Users\rom\source\repos\shopping-test\ApiService\Campaign\src\ShoppingTest.Campaign.Core\obj\Debug\net7.0\ref\ShoppingTest.Campaign.Core.dll
